@@ -1,12 +1,12 @@
 class Sessync < Formula
   desc "Cross-device sync for Claude Code agent sessions, with client-side encryption"
   homepage "https://github.com/echobyte26/sessync"
-  version "0.9.5"
+  version "0.9.6"
   url "https://github.com/echobyte26/sessync/releases/download/v#{version}/sessync-v#{version}-macos-universal.tar.gz"
   # Replace with `shasum -a 256 sessync-v0.1.0-macos-universal.tar.gz` output
   # printed by the release workflow (or read from the .sha256 sidecar in the
   # release assets).
-  sha256 "e5270877016db4473d858fa0b2cf196795207691d0f21ad184720219b0a7e1e8"
+  sha256 "18fa878aa5c93234bf0a93aa54c17b1f912d56c22f73766fbdb88b64eb621e57"
   license "MIT"
 
   depends_on :macos
